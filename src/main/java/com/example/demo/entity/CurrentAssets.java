@@ -49,7 +49,7 @@ public class CurrentAssets {
 
 	@OneToOne
 	@JoinColumn(name = "id",unique = true)
-	private ConsolidatedBalancedSheets consolidatedBalancedSheet;
+	private ConsolidatedBalancedSheets consolidatedBalancedSheets;
 	
 
 }

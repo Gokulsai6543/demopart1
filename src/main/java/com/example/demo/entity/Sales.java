@@ -58,6 +58,6 @@ public class Sales {
 	
 	@OneToOne
 	@JoinColumn(name="id")
-	private ProfitAndLoss profitandloss;
+	private ProfitAndLoss profitAndLoss;
 	
 }
