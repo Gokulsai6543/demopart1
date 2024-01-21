@@ -28,13 +28,13 @@ public class ConsolidatedBalancedSheets {
 	@Column(name = "value_or_per")
 	private String valueOrPer;
 
-	@OneToOne(mappedBy = "consolidatedbalancedsheets",cascade = CascadeType.ALL, orphanRemoval = true )
+	@OneToOne(mappedBy = "consolidatedBalancedSheets",cascade = CascadeType.ALL, orphanRemoval = true )
 	private CurrentAssets currrentAssetsId;
 
-	@OneToOne(mappedBy = "consolidatedbalancedsheets",cascade = CascadeType.ALL, orphanRemoval = true )
+	@OneToOne(mappedBy = "consolidatedBalancedSheets",cascade = CascadeType.ALL, orphanRemoval = true )
 	private Stockholders stockHoldersId;
 
-	@OneToOne(mappedBy = "consolidatedbalancedsheets",cascade = CascadeType.ALL, orphanRemoval = true )
+	@OneToOne(mappedBy = "consolidatedBalancedSheets",cascade = CascadeType.ALL, orphanRemoval = true )
 	private CurrentLiabilities currentLiabilityId;
 
 

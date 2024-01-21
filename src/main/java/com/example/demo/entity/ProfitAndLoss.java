@@ -29,10 +29,10 @@ public class ProfitAndLoss {
 	@Column(name = "value_or_per")
 	private String valueOrPer;
 	
-	@OneToOne(mappedBy = "profitandloss",cascade = CascadeType.ALL, orphanRemoval = true)
+	@OneToOne(mappedBy = "profitAndLoss",cascade = CascadeType.ALL, orphanRemoval = true)
 	private Sales sales;
 	
-	@OneToOne(mappedBy = "profitandloss",cascade = CascadeType.ALL, orphanRemoval = true )
+	@OneToOne(mappedBy = "profitAndLoss",cascade = CascadeType.ALL, orphanRemoval = true )
 	private Ratios ratios;
 	
 	

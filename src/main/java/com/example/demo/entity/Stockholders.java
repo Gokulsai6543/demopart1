@@ -40,6 +40,6 @@ public class Stockholders {
 	
 	@OneToOne
 	@JoinColumn(name = "id",unique = true)
-	private ConsolidatedBalancedSheets consolidatedBalancedSheet;
+	private ConsolidatedBalancedSheets consolidatedBalancedSheets;
 	
 }
